@@ -1,0 +1,75 @@
+ @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap");
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  max-width:100%;
+  width: 800px;
+  margin:0 auto;
+  padding: 20px;
+}
+
+aside{
+  padding:10px 20px;
+  width:250px;
+  border-right: 1px solid #111;
+}
+
+button{
+  background-color:gainsboro;
+  border:solid 1px black;
+  border-radius: 5px;
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+main{
+  flex: 1;
+  padding: 10px 20px;
+}
+
+h2{
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  display: flex;
+  font-weight:300;
+  margin: 0 0 20px;
+  justify-content: space-between;
+}
+
+h3{
+  border-bottom: 1px solid black;
+  padding:10px;
+  display: flex;
+  font-weight:300;
+  margin: 20px 0 0;
+  justify-content: space-between;
+  background-color: white;
+  
+}
+
+.person{
+  display: flex;
+  justify-content:space-between;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
